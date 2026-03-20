@@ -456,6 +456,8 @@ animateFireworks();
 // Launch fireworks continuously
 setInterval(launchFirework, 600);
 launchFirework(); launchFirework();
+
+let opened = false;
 function openGift(){
   if(opened)return; opened=true;
   document.getElementById('giftBox').classList.add('open');
